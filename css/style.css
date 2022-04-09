@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: rgb(151, 66, 180);
+    height: 8em;
+}
+
+.profile{
+    float: right;
+    margin-top: 1px;
+    margin-right: 5%;
+        }
+.profile a{
+
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(236, 68, 17);
+    border: 2px solid rgb(4, 143, 30);
+    padding: 1px;
+    margin: 8px;
+}
+
+.profile a:hover{
+    background-color: rgb(48, 210, 16);
+    color: rgb(181, 9, 9);
+    transition: 1 sec ease-in-out;
+    
+}
+.logo img{
+    width: 70px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 5%;
+
+}
+
+.title{
+    color: darkgreen;
+    
+    margin-top: 5px;
+
+   
+
+}
+
+.carousel-item-active{
+  
+    height:700px;
+    
+}
+.carousel-item{
+    height: 700px;
+}
+
+.login-page{
+
+border: 2px solid green;
+background-color: darkkhaki;
+margin-top: 5%;
+width: 500px;
+height: 200px;
+margin-top: 15%;
+margin-left: 25%;
+
+padding-top: 50px;
+padding-left: 250px;
+
+}
